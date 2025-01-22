@@ -39,9 +39,9 @@ export default function Card_temp_1({ toggle, settoggle }) {
 
         <div className="flex flex-row">
           <button className="md:m-2 m-auto mt-8 bg-[#5865F2] shadow-md shadow-[#5865f28a]  pt-2 pb-2 pl-6 pr-4 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
-            <FaPlay className="animate-ping" size={10} color="#fff" />
             <h1 className="text-white text-md font-semibold pl-2">
-              Hello There!!!
+              {/* project link Here*/}
+             <a href="#"> View Project</a>
             </h1>
           </button>
           <button
@@ -55,6 +55,10 @@ export default function Card_temp_1({ toggle, settoggle }) {
             )}
           </button>
         </div>
+        <div>
+            <p>helo</p>
+            <p>helo</p>
+          </div>
       </div>
     </div>
   );
