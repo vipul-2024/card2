@@ -1,8 +1,12 @@
 import Image from "next/image";
-import thumb from "../public/Image20211011062828.jpg";
+import thumb from "../public/1stproject.jpg";
 // import { FaPlay } from "react-icons/fa";
 import { MoonIcon } from "@heroicons/react/solid";
 import { SunIcon } from "@heroicons/react/solid";
+import { ThumbUpIcon } from '@heroicons/react/solid';
+import { ThumbDownIcon } from '@heroicons/react/solid';
+
+
 
 export default function Card_temp_1({ toggle, settoggle }) {
   return (
@@ -61,18 +65,18 @@ export default function Card_temp_1({ toggle, settoggle }) {
             className="md:m-2 m-auto mt-8 bg-[#5865F2] shadow-md shadow-[#5865f28a] p-2.5 rounded-xl  justify-center items-center hover:bg-[#424bb6] ease-linear duration-300"
           >
             {toggle ? (
-              <SunIcon className="h-5 w-5 text-white" />
+              <ThumbUpIcon className="h-5 w-5 text-white" />
             ) : (
-              <SunIcon className="h-5 w-5 text-white" />
+              <ThumbUpIcon className="h-5 w-5 text-white" />
             )}
           </button>
           <button
             className="md:m-2 m-auto mt-8 bg-[#5865F2] shadow-md shadow-[#5865f28a] p-2.5 rounded-xl  justify-center items-center hover:bg-[#424bb6] ease-linear duration-300"
           >
             {toggle ? (
-              <SunIcon className="h-5 w-5 text-white" />
+              <ThumbDownIcon className="h-5 w-5 text-white" />
             ) : (
-              <SunIcon className="h-5 w-5 text-white" />
+              <ThumbDownIcon className="h-5 w-5 text-white" />
             )}
           </button>
           </div>
