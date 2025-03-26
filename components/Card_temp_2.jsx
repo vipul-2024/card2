@@ -9,38 +9,57 @@ export default function Card_temp_1({ toggle, settoggle }) {
   <div className="book">
     <p>Chat-apk</p>
     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      <a href="https://chat-app-ruddy-iota.vercel.app/">View</a>
+      <a href="https://chat-app-ruddy-iota.vercel.app/" target="_blank">View</a>
       </button>
     <div className="cover">
       <p >Chat-apk</p>
     </div>
   </div>
+
+  {/* MARK: project 2 */}
   <div className="book">
-    <p>Hello</p>
+    <p>bookerrquiz</p>
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <a href="https://bookerrquiz.vercel.app/" target="_blank">View</a>
+      </button>
     <div className="cover">
-      <p>Hover Me</p>
+      <p>bookerrquiz</p>
     </div>
   </div>
+    {/* MARK: project 3 */}
+
   <div className="book">
-    <p>Hello</p>
+    <p>Fisker-Ocean</p>
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <a href="https://fiskerocean.vercel.app/" target="_blank">View</a>
+      </button>
     <div className="cover">
-      <p>Hover Me</p>
+      <p>Fisker-Ocean</p>
     </div>
   </div>
+  {/* MARK: project 4 */}
   <div className="book">
-    <p>Hello</p>
+    <p>Untitled-Form</p>
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <a href="https://untitled-form.pages.dev/" target="_blank">View</a>
+      </button>
     <div className="cover">
-      <p>Hover Me</p>
+      <p>Untitled-Form</p>
     </div>
   </div>
+    {/* MARK: project 5 */}
+
   <div className="book">
-    <p>Hello</p>
+    <p>text-editor</p>
+    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <a href="https://vipulltextedit.pages.dev/
+" target="_blank">View</a>
+      </button>
     <div className="cover">
-      <p>Hover Me</p>
+      <p>text-editor</p>
     </div>
   </div>
 </div>
-
   </>
   );
 }
